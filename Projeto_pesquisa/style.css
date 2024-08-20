@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('img/fundo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+form{
+    padding: 30px;
+}
+input[type=text], input[type=button]{
+
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+input[type=button]{
+    background-color:#14a2ab;
+}
+input[type=button]:active{
+    cursor: pointer;
+     background: #139099;
+}
+
+.result {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.result{
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.result p{
+    font-weight: 300;
+}
+
+.result h3{
+    text-transform: uppercase;
+    color: white;
+}
+
+.result a{
+    text-decoration: none;
+    color:blueviolet;
+}
+
